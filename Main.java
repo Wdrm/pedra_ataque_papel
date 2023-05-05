@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws ParseException {
         Scanner leitor = new Scanner(System.in);
+        System.out.println("Quantas PArtidas Vamos Jogar?");
         int N = leitor.nextInt();
         String jogador1, jogador2;
 // TODO: complete os espaços em branco com sua solução para o problema
